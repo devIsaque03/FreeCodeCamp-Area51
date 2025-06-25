@@ -1,0 +1,113 @@
+<!-- Imagem padrão com atributo alt para acessibilidade -->
+<img src="example-img-url" alt="Descriptive text goes here" />
+
+<!-- Iframe incorporando um site externo com título descritivo para acessibilidade -->
+<iframe src="https://www.example.com" title="Example Site"></iframe>
+
+<!-- Quebra de linha e linha horizontal para separação visual de conteúdo -->
+<br />
+<hr />
+
+<!-- Player de áudio com controle e loop ativado -->
+<audio
+  src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+  loop
+  controls
+></audio>
+
+<!-- Segundo player de áudio com as mesmas configurações, mas com som inicial desativado (muted) -->
+<audio
+  src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+  loop
+  controls
+  muted
+></audio>
+
+<!-- Player de áudio com múltiplas fontes. O navegador escolhe a primeira compatível -->
+<audio controls>
+  <!-- Formato OGG (prioridade alta para navegadores compatíveis) -->
+  <source src="audio.ogg" type="audio/ogg" />
+  <!-- Formato WAV como segunda opção -->
+  <source src="audio.wav" type="audio/wav" />
+  <!-- Formato MP3 como terceira opção -->
+  <source src="audio.mp3" type="audio/mpeg" />
+</audio>
+
+<!-- Vídeo incorporado com controles, em loop e sem som inicial -->
+<video
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  loop
+  controls
+  muted
+></video>
+
+<br />
+
+<!-- Segundo vídeo com as mesmas propriedades, mas:
+     - Usa uma imagem de "capa" (poster) antes do vídeo começar
+     - Define uma largura específica de 620px -->
+<video
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  loop
+  controls
+  muted
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  width="620"
+></video>
+
+<!-- Botão de envio do tipo imagem.
+     Ao ser clicado, pode ser usado como submit em formulários -->
+<input type="image" alt="Descriptive text goes here" src="example-img-url" />
+
+<iframe
+  src="video-url"
+  width="width-value"
+  height="height-value"
+  allowfullscreen
+></iframe>
+<br>
+<br>
+<br>
+<h1>A freeCodeCamp YouTube Video Embedded with the iframe Element</h1>
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/PkZNo7MFNFg?si=-UBVIUNM3csdeiWF"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
+<iframe
+  src="https://youtube.com/embed/gp5H0Vw39yw?si=Rb_2nDK6abv1iIAM"
+  title="freeCodeCamp Typescript Course"
+  width="500"
+  height="285"
+  allowfullscreen
+></iframe>
+
+<h1>A Video from Pixabay Embedded with the iframe Element</h1>
+
+<iframe
+  src="https://cdn.pixabay.com/video/2022/07/24/125310-733046613_large.mp4"
+  width="500"
+  height="285"
+></iframe>
+
+<h1>A Map from Openstreetmap.org Embedded with the iframe Element</h1>
+
+<iframe
+  width="425"
+  height="350"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=3.006134033203125%2C6.150112578753815%2C3.6357879638671875%2C6.749850810550778&amp;layer=mapnik"
+  style="border: 1px solid black"
+>
+</iframe>
+<br />
+<small>
+  <a href="https://www.openstreetmap.org/#map=11/6.4501/3.3210">
+    View Larger Map
+  </a>
+</small>
